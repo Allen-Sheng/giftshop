@@ -1,0 +1,13 @@
+{
+  "name": "giftshop",
+  "version": "1.0.0",
+  "description": "Gift Shop",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd Backend && npm run dev",
+    "client": "cd Frontend && npm start"
+  },
+  "dependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
